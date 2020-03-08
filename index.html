@@ -4,12 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Front-end</title>
 </head>
 <body>
+    <!--Sprite-->
+    <svg style="display:none;">
+    
+        <symbol id = "vk" viewBox = "0 0 24 24">
+            <g>
+                <path d="m12.145 19.5c3.472 0 2.234-2.198 2.502-2.83-.004-.472-.008-.926.008-1.202.22.062.739.325 1.811 1.367 1.655 1.67 2.078 2.665 3.415 2.665h2.461c.78 0 1.186-.323 1.389-.594.196-.262.388-.722.178-1.438-.549-1.724-3.751-4.701-3.95-5.015.03-.058.078-.135.103-.175h-.002c.632-.835 3.044-4.449 3.399-5.895.001-.002.002-.005.002-.008.192-.66.016-1.088-.166-1.33-.274-.362-.71-.545-1.299-.545h-2.461c-.824 0-1.449.415-1.765 1.172-.529 1.345-2.015 4.111-3.129 5.09-.034-1.387-.011-2.446.007-3.233.036-1.535.152-3.029-1.441-3.029h-3.868c-.998 0-1.953 1.09-.919 2.384.904 1.134.325 1.766.52 4.912-.76-.815-2.112-3.016-3.068-5.829-.268-.761-.674-1.466-1.817-1.466h-2.461c-.998 0-1.594.544-1.594 1.455 0 2.046 4.529 13.544 12.145 13.544zm-8.09-13.499c.217 0 .239 0 .4.457.979 2.883 3.175 7.149 4.779 7.149 1.205 0 1.205-1.235 1.205-1.7l-.001-3.702c-.066-1.225-.512-1.835-.805-2.205l3.508.004c.002.017-.02 4.095.01 5.083 0 1.403 1.114 2.207 2.853.447 1.835-2.071 3.104-5.167 3.155-5.293.075-.18.14-.241.376-.241h2.461.01c-.001.003-.001.006-.002.009-.225 1.05-2.446 4.396-3.189 5.435-.012.016-.023.033-.034.05-.327.534-.593 1.124.045 1.954h.001c.058.07.209.234.429.462.684.706 3.03 3.12 3.238 4.08-.138.022-.288.006-2.613.011-.495 0-.882-.74-2.359-2.23-1.328-1.292-2.19-1.82-2.975-1.82-1.524 0-1.413 1.237-1.399 2.733.005 1.622-.005 1.109.006 1.211-.089.035-.344.105-1.009.105-6.345 0-10.477-10.071-10.636-11.996.055-.005.812-.002 2.546-.003z"/>
+            </g>
+        </symbol>
+
+        <symbol id = "instagram"  viewBox="0 0 511 511.9">
+            <g>
+                <path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"/><path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"/><path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"/>
+            </g>
+        </symbol>
+
+        <symbol id = "twitter" viewBox="0 0 449.956 449.956">
+            <g>
+                <path d="M449.956,85.657c-17.702,7.614-35.408,12.369-53.102,14.279c19.985-11.991,33.503-28.931,40.546-50.819
+		c-18.281,10.847-37.787,18.268-58.532,22.267c-18.274-19.414-40.73-29.125-67.383-29.125c-25.502,0-47.246,8.992-65.24,26.98
+		c-17.984,17.987-26.977,39.731-26.977,65.235c0,6.851,0.76,13.896,2.284,21.128c-37.688-1.903-73.042-11.372-106.068-28.407
+		C82.46,110.158,54.433,87.46,31.403,59.101c-8.375,14.272-12.564,29.787-12.564,46.536c0,15.798,3.711,30.456,11.138,43.97
+		c7.422,13.512,17.417,24.455,29.98,32.831c-14.849-0.572-28.743-4.475-41.684-11.708v1.142c0,22.271,6.995,41.824,20.983,58.674
+		c13.99,16.848,31.645,27.453,52.961,31.833c-7.995,2.091-16.086,3.138-24.269,3.138c-5.33,0-11.136-0.475-17.416-1.42
+		c5.9,18.459,16.75,33.633,32.546,45.535c15.799,11.896,33.691,18.028,53.677,18.418c-33.498,26.262-71.66,39.393-114.486,39.393
+		c-8.186,0-15.607-0.373-22.27-1.139c42.827,27.596,90.03,41.394,141.612,41.394c32.738,0,63.478-5.181,92.21-15.557
+		c28.746-10.369,53.297-24.267,73.665-41.686c20.362-17.415,37.925-37.448,52.674-60.097c14.75-22.651,25.738-46.298,32.977-70.946
+		c7.23-24.653,10.848-49.344,10.848-74.092c0-5.33-0.096-9.325-0.287-11.991C421.785,120.202,437.202,104.306,449.956,85.657z"/>
+            </g>
+        </symbol>
+    </svg>
+
     <!--Header-->
     <header class = "header">
         <div class="wrapper">
@@ -27,7 +59,7 @@
     <!--Things-->
     <div class="things">
         <div class="wrapper">
-            <h2>what things i am doing...</h2>
+            <h2 class = "things-title_h2">what things i am doing...</h2>
             <p class = "description">Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
             <div class="inner-block">
             <div class="block">
@@ -75,6 +107,130 @@
         </div>
         <!--/.wrapper-->
     </div>
+    <!--/.things-->
+
+    <!--About me-->
+    <div class="about-me">
+        <div class="wrapper">
+            <div class="info">
+                <img src="img/me.jpg" alt="me">
+                <div class="info-inner_block">
+                <div class="text-info">
+                    <h2 class="about-me_title">a little bit about me</h2>
+                    <div class="about-me_subtitle">Creative Photographer & Front-end Developer</div>
+                    <p class="about-me_description-1">Praesent eleifend tristique nisl, nec finibus urna posuere nec. 
+                        Quisque vel nunc eget arcu maximus facilisis non eu nisi. Aliquam ullamcorper est a nisl imperdiet luctus.</p>
+                    <p class="about-me_description-2">Sed sed convallis odio. Nulla scelerisque libero efficitur diam fermentum, quis tincidunt urna placerat. 
+                            Maecenas sed tortor sed nisi semper ultricies. Nulla ornare metus in massa mollis scelerisque.</p>
+                </div>
+                <div class="social">
+                    <a class = "social-item" href="#" target = "_blank">
+                        <svg class = "social-icon">
+                           <use xlink:href = "#vk"></use> 
+                        </svg>
+                    </a>
+                    <a class = "social-item" href="#" target = "_blank">
+                        <svg class = "social-icon">
+                           <use xlink:href = "#instagram"></use> 
+                        </svg>
+                    </a>
+                    <a class = "social-item" href="#" target = "_blank">
+                        <svg class = "social-icon">
+                           <use xlink:href = "#twitter"></use> 
+                        </svg>
+                    </a>
+                </div>
+                <!--/.social-->
+            </div>
+            <!--/.info-inner_block-->
+            </div>
+            <!--/.info-->
+        </div>
+        <!--/.wrapper-->
+    </div>
+    <!--/.about-me-->
+
+    <!--Portfolio-->
+    <div class="portfolio">
+        <div class="wrapper">
+            <h2 class="portgolio-title">
+                Selected Designs
+            </h2>
+            <div class="works">
+                <img src="img/portfolio/pic-1.jpg" alt="pic-1">
+                <img src="img/portfolio/pic-2.jpg" alt="pic-2">
+                <img src="img/portfolio/pic-3.jpg" alt="pic-3">
+            </div>
+            <!--/.works-->
+        </div>
+        <!--/.wrapper-->
+    </div>
+    <!--/.portfolio-->
+
+
+    
+    <!--Callback-->
+
+    <div class="callback">
+        <div class="callback-wrapper">
+            <h2 class = "callback-title">Get in touch</h2>
+            <div class="callback-subtitle">Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</div>
+            <div class="callback-textbox">
+            <input class = "textbox" type = "text" placeholder = "Name"> 
+            <input class = "textbox" type = "email" placeholder = "Email">
+           <textarea class = "textbox-message" placeholder="Message"></textarea>
+        </div>
+        <!--/.callback-textbox-->
+        <div class="button-callback">
+            <a href="#" class="btn-callback">Send Message</a>
+        </div>
+        <!--button-callback-->
+        </div>
+        <!--Callback-wrapper-->       
+    </div>
+    <!--/.Callback-->
+
+    <footer>
+        <div class="contact">
+        <div class="wrapper">
+            <div class="inner-contact">
+                <div class="contact-info">
+                    <div class="contact-title">Contact info</div>
+                    <ul>
+                        <li><i class="fa fa-map-marker fa-fw"></i>Russia, Republic of Mordovia, Saransk</li>
+                        <li><i class="fa fa-comment fa-fw"></i>tianaratnikova@gmail.com</li>
+                        <li><i class="fa fa-phone fa-fw"></i>+ 7 (999) 999-99-99</li>
+                    </ul>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2334.604044503454!2d45.17672765229283!3d54.18708798006652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414408ea8df6a4c1%3A0x9b90f94917c9b556!2z0JjQvdGB0YLQuNGC0YPRgiDRjdC70LXQutGC0YDQvtC90LjQutC4INC4INGB0LLQtdGC0L7RgtC10YXQvdC40LrQuA!5e0!3m2!1sru!2sru!4v1583660013011!5m2!1sru!2sru" width="655" height="348" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.contact-->
+    <div class="wrapper">
+            <div class="footer-social">
+                <a class = "social-item" href="#" target = "_blank">
+                    <svg class = "social-icon">
+                       <use xlink:href = "#vk"></use> 
+                    </svg>
+                </a>
+                <a class = "social-item" href="#" target = "_blank">
+                    <svg class = "social-icon">
+                       <use xlink:href = "#instagram"></use> 
+                    </svg>
+                </a>
+                <a class = "social-item" href="#" target = "_blank">
+                    <svg class = "social-icon">
+                       <use xlink:href = "#twitter"></use> 
+                    </svg>
+                </a>
+            </div>
+            <!--/.footer-social-->
+        </div>
+        <!--/.wrapper-->
+    </footer>
 
 </body>
 </html>
