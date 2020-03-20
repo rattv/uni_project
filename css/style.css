@@ -602,6 +602,48 @@
         }
         .title {
             padding-top: 80px;
+            font-size: 52px;
+        }
+        .subtitle {
+            font-size: 16px;
+        }
+        .things-title_h2 {
+            font-size: 36px;
+        }
+        .description {
+            font-size: 18px;
+        }
+        .things-title {
+            font-size: 24px;
+        }
+        .thigs-subtitle {
+            font-size: 18px;
+        }
+        .adap_about-me_title {
+            font-size: 32px;
+        }
+        .adapt_about-me_subtitle {
+            font-size: 18px;
+        }
+        .portgolio-title {
+            font-size: 34px;
+        }
+        .callback-title {
+            font-size: 34px;
+        }
+        .callback-subtitle {
+            font-size: 18px;
+        }
+        .textbox {
+            height: 50px;
+            font-size: 18px;
+        }
+        .textbox-message {
+            font-size: 18px;
+        }
+        .btn-callback {
+            font-size: 20px;
+            padding: 20px 39px;
         }
         .btn {
             margin-bottom: 64px;
@@ -609,6 +651,10 @@
         .things {
             padding-top: 50px;
             padding-bottom: 50px;
+        }
+        ul,
+        li {
+            font-size: 18px;
         }
     }
     
