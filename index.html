@@ -52,13 +52,13 @@
             <p class="subtitle">
                 Praesent eleifend tristique nisl, nec finibus urna posuere nec. Quisque vel nunc eget <span>arcu maximus facilisis</span> non eu nisi. Aliquam ullamcorper est a nisl imperdiet luctus.
             </p>
-            <a href="#" class="btn">discover more</a>
+            <a href="#things" class="btn">discover more</a>
         </div>
         <!--/.wrapper-->
     </header>
 
     <!--Things-->
-    <div class="things">
+    <div class="things" id="things">
         <div class="wrapper">
             <h2 class="things-title_h2">what things i am doing...</h2>
             <p class="description">Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
@@ -79,7 +79,7 @@
                         Web
                     </div>
                     <div class="thigs-subtitle">
-                        I’m a front-end developer for 3 years.
+                        I’m a front-end developer for 1 year.
                     </div>
                 </div>
                 <!--/.2-nd block (web-block)-->
@@ -112,9 +112,11 @@
 
     <!--About me-->
     <div class="about-me">
+        <h2 class="adap_about-me_title">a little bit about me</h2>
+        <div class="adapt_about-me_subtitle">Creative Photographer & Front-end Developer</div>
         <div class="wrapper">
             <div class="info">
-                <img src="img/me.jpg" alt="me">
+                <img src="img/me.jpg" alt="me" class="myphoto">
                 <div class="info-inner_block">
                     <div class="text-info">
                         <h2 class="about-me_title">a little bit about me</h2>
@@ -123,17 +125,17 @@
                         <p class="about-me_description-2">Sed sed convallis odio. Nulla scelerisque libero efficitur diam fermentum, quis tincidunt urna placerat. Maecenas sed tortor sed nisi semper ultricies. Nulla ornare metus in massa mollis scelerisque.</p>
                     </div>
                     <div class="social">
-                        <a class="social-item" href="#" target="_blank">
+                        <a class="social-item" href="https://vk.com/id210252050" target="_blank">
                             <svg class="social-icon">
                            <use xlink:href = "#vk"></use> 
                         </svg>
                         </a>
-                        <a class="social-item" href="#" target="_blank">
+                        <a class="social-item" href="https://www.instagram.com" target="_blank">
                             <svg class="social-icon">
                            <use xlink:href = "#instagram"></use> 
                         </svg>
                         </a>
-                        <a class="social-item" href="#" target="_blank">
+                        <a class="social-item" href="https://twitter.com" target="_blank">
                             <svg class="social-icon">
                            <use xlink:href = "#twitter"></use> 
                         </svg>
@@ -190,8 +192,12 @@
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
+
             </div>
             <!--/.swiper-container-->
+
+
+
         </div>
         <!--/.wrapper-->
     </div>
@@ -233,7 +239,7 @@
                         </ul>
                     </div>
                     <div class="contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2334.604044503454!2d45.17672765229283!3d54.18708798006652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414408ea8df6a4c1%3A0x9b90f94917c9b556!2z0JjQvdGB0YLQuNGC0YPRgiDRjdC70LXQutGC0YDQvtC90LjQutC4INC4INGB0LLQtdGC0L7RgtC10YXQvdC40LrQuA!5e0!3m2!1sru!2sru!4v1583660013011!5m2!1sru!2sru"
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2334.604044503454!2d45.17672765229283!3d54.18708798006652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414408ea8df6a4c1%3A0x9b90f94917c9b556!2z0JjQvdGB0YLQuNGC0YPRgiDRjdC70LXQutGC0YDQvtC90LjQutC4INC4INGB0LLQtdGC0L7RgtC10YXQvdC40LrQuA!5e0!3m2!1sru!2sru!4v1583660013011!5m2!1sru!2sru"
                             width="655" height="348" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
@@ -265,16 +271,8 @@
 
 
     <script type="text/javascript" src="js/swiper.min.js"></script>
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
-    </script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
